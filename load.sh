@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+while true; do curl -I -s -w "Service 1: %{http_code}\n" localhost:8000/service/1 -o /dev/null; curl -I -s -w "Service 2: %{http_code}\n" localhost:8000/service/2 -o /dev/null; sleep 0.1; done
