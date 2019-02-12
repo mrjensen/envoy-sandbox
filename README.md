@@ -1,4 +1,4 @@
-#Envoy demo/sandbox
+# Envoy demo/sandbox
 
 ##### Requirements
 - Docker Engine
@@ -39,7 +39,7 @@ docker-compose up -d --force-recreate --build service1
 - service1 (:8080)
 - service2 (:8080)
 
-#Credit
+# Credit
 This is heavily inspired by envoy proxy sandbox from the [envoy docs](https://www.envoyproxy.io/docs/envoy/latest/start/sandboxes/front_proxy.html)
 
 
